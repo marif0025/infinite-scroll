@@ -1,5 +1,5 @@
 {
-  "name": "starter-template",
+  "name": "infinite-scroll",
   "version": "1.0.0",
   "description": "starter-template",
   "main": "index.js",
@@ -19,5 +19,9 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
-  }
+  },
+  "keywords": [
+    "learning",
+    "practice-project"
+  ]
 }

@@ -6,11 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/css/style.min.css">
-    <title>Document</title>
+    <title>Infinite Scroll</title>
 </head>
 
 <body>
+    <div class="container">
+        <h1 class="blog-title">Blog</h1>
+        <div class="filter-container">
+            <input type="text" id="filter" class="filter" placeholder="Filter posts...">
+        </div>
 
+        <div class="post-container">
+            <div class="post">
+                <div class="number">1</div>
+                <div class="post-info">
+                    <h3 class="post-title">post one</h3>
+                    <p class="post-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias officiis eos eveniet quasi at
+                        tenetur iusto laudantium voluptatem consequuntur. Minus?
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 
