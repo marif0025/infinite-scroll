@@ -73,6 +73,10 @@ input,button {
     border-radius: 4px;
     padding: 20px;
 
+    &.hide {
+        display: none;
+    }
+
     .post-info {
         display: flex;
         flex-direction: column;
@@ -117,6 +121,7 @@ input,button {
     margin-top: 3rem;
     gap: 12px;
     transition: opacity .25s ease-in-out;
+    margin-bottom: 5rem;
 
     &.show {
         opacity: 1;
